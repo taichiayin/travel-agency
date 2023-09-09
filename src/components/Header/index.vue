@@ -1,0 +1,35 @@
+<template>
+  <header
+    class="w-full mx-auto text-center p-4 flex justify-between items-center"
+  >
+    <div class="flex justify-center items-center">
+      <img
+        src="@/assets/images/logo.png"
+        alt="logo img"
+        class="w-20 h-20 rounded-full"
+      />
+      <h1 class="ml-4 text-2xl">Never Too Late</h1>
+    </div>
+    <ul class="flex justify-center items-center tracking-wider">
+      <li class="p-2 mr-6 cursor-pointer">DESTINATIONS +</li>
+      <li class="p-2 mr-6 cursor-pointer">PACKAGES +</li>
+      <li class="p-2 mr-6 cursor-pointer">BLOGS +</li>
+      <li class="p-2 cursor-pointer">CONTACT</li>
+    </ul>
+    <div class="flex items-center">
+      <span class="flex items-center border-r-2 pr-6">
+        <SvgIcon name="phone" class="text-2xl mr-2" />
+        1-888-321-7666
+      </span>
+      <span class="pl-6">
+        <SvgIcon name="i18n" class="text-4xl cursor-pointer" />
+      </span>
+    </div>
+  </header>
+</template>
+
+<script setup lang="ts">
+import SvgIcon from '@/components/SvgIcon/index.vue'
+</script>
+
+<style scoped></style>
