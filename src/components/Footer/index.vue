@@ -1,6 +1,6 @@
 <template>
   <Footer
-    class="w-full py-10 mx-auto mt-8 bg-cyan-950 text-[rgba(255,255,255,.8)]"
+    class="w-full py-10 mx-auto bg-cyan-950 text-[rgba(255,255,255,.8)]"
   >
     <div class="w-[1200px] mx-auto flex">
       <div class="">

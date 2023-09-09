@@ -5,5 +5,7 @@
 @layer base {
   html {
     font-family: 'Poppins', 'Noto Sans';
+    color: #223645;
+    background-color: #F9F9F9;
   }
 }

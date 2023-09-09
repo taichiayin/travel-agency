@@ -1,6 +1,6 @@
 <template>
   <header
-    class="w-full mx-auto text-center p-4 flex justify-between items-center"
+    class="w-full mx-auto text-center p-4 flex justify-between items-center fixed top-0 left-0 z-10 bg-white"
   >
     <div class="flex justify-center items-center">
       <img
@@ -11,10 +11,10 @@
       <h1 class="ml-4 text-2xl">Never Too Late</h1>
     </div>
     <ul class="flex justify-center items-center tracking-wider">
-      <li class="p-2 mr-6 cursor-pointer">DESTINATIONS +</li>
-      <li class="p-2 mr-6 cursor-pointer">PACKAGES +</li>
-      <li class="p-2 mr-6 cursor-pointer">BLOGS +</li>
-      <li class="p-2 cursor-pointer">CONTACT</li>
+      <li class="p-2 mr-6 cursor-pointer"><router-link to="/">DESTINATIONS +</router-link></li>
+      <li class="p-2 mr-6 cursor-pointer"><router-link to="/packages">PACKAGES +</router-link></li>
+      <li class="p-2 mr-6 cursor-pointer"><router-link to="/blogs">BLOGS +</router-link></li>
+      <li class="p-2 cursor-pointer"><router-link to="/contact">CONTACT</router-link></li>
     </ul>
     <div class="flex items-center">
       <span class="flex items-center border-r-2 pr-6">

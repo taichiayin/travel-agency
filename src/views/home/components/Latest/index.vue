@@ -1,5 +1,5 @@
 <template>
-  <section class="w-[1200px] mx-auto shadow-md p-6 rounded-xl mt-8">
+  <section class="w-[1200px] mx-auto shadow-md p-6 rounded-xl my-8">
     <div class="flex justify-between items-center">
       <div class="flex justify-center items-end">
         <h2 class="text-4xl font-bold">Latest Packages</h2>
