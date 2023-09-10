@@ -11,10 +11,10 @@
       <h1 class="ml-4 text-2xl">Never Too Late</h1>
     </div>
     <ul class="flex justify-center items-center tracking-wider">
-      <li class="p-2 mr-6 cursor-pointer"><router-link to="/">DESTINATIONS +</router-link></li>
-      <li class="p-2 mr-6 cursor-pointer"><router-link to="/packages">PACKAGES +</router-link></li>
-      <li class="p-2 mr-6 cursor-pointer"><router-link to="/blogs">BLOGS +</router-link></li>
-      <li class="p-2 cursor-pointer"><router-link to="/contact">CONTACT</router-link></li>
+      <li class="p-2 mr-6 cursor-pointer hover:text-blue-500"><router-link to="/">DESTINATIONS +</router-link></li>
+      <li class="p-2 mr-6 cursor-pointer hover:text-blue-500"><router-link to="/packages">PACKAGES +</router-link></li>
+      <li class="p-2 mr-6 cursor-pointer hover:text-blue-500"><router-link to="/blogs">BLOGS +</router-link></li>
+      <li class="p-2 cursor-pointer hover:text-blue-500"><router-link to="/contact">CONTACT</router-link></li>
     </ul>
     <div class="flex items-center">
       <span class="flex items-center border-r-2 pr-6">

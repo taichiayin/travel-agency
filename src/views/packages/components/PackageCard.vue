@@ -10,7 +10,7 @@
         <div class="px-3 text-sm"><SvgIcon name="location" class="text-gray-500 inline-block mr-1" />Thailand</div>
       </div>
      </div>
-     <div class="w-[379px] flex flex-col justify-center items-center bg-blue-400">
+     <div class="w-[379px] flex flex-col justify-center items-center bg-blue-500">
       <div class="flex justify-center items-center ">
         <p class="text-lg text-white mr-2 ">(25 reviews)</p>
         <SvgIcon v-for="i in 5" :key="i" name="star" class="text-xl pt-2-1 text-yellow-300" />
@@ -20,7 +20,7 @@
         <p class="text-sm text-white">/ per person</p>
       </div>
       <div class="mt-4">
-        <button class="py-2 px-6 text-lg text-white border-2 border-white rounded-full ">BOOK NOW</button>
+        <button class="py-2 px-6 text-lg text-white border-2 border-transparent rounded-full bg-red-400 hover:bg-white hover:text-red-400 hover:border-red-400">BOOK NOW</button>
       </div>
      </div>
   </div>
